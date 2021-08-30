@@ -17,8 +17,8 @@ int main()
     int sum=0;
     while(n>0)
     {
-        int r=n%5;
-        sum=sum*10+r;
+        int r=n%5;                      // 754=5*150+4    
+        sum=sum*10+r;                   //150=5*30+0       30=5*6+0        6=5*1+1          1=5*0+1        11004
         n=n/5;
     }
     int final=0;
